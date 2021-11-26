@@ -2,7 +2,7 @@
 
 This example uses the dellos.dellos-copy-config role to push the configuration file into the device. It creates a hosts file with the switch details and corresponding variables. It writes a simple playbook that only references the dellos-copy-config role. By including the role, you automatically get access to all of the tasks to push configuration file.
 
-install collections on your ansible control node </br>
+# install collections on your ansible control node </br>
 ansible-galaxy install Dell-Networking.dellos-copy-config </br>
 
 ref: 
