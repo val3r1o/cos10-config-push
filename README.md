@@ -1,6 +1,7 @@
 # os10 config push
 
-run the Ansible playbook to push the configs into your OS10 node.
+run the Ansible playbook to push the configs (jinja template) into your OS10 node.
+the projecy config backup create jinja files automatically.
 
 ansible-playbook -i inventory pushconfig2.yml
 
