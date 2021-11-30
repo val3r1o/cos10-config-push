@@ -1,45 +1,5 @@
 [switches]
 # list of device under test
-# leaf-1-a ansible_host=10.0.0.1 ansible_network_os=dellemc.os10.os10
-# leaf-1-a ansible_host=10.0.0.1
-
-Leaf-1A ansible_host=10.0.0.1
-Leaf-1B ansible_host=10.0.0.2
-Leaf-2A ansible_host=10.0.0.3
-#Leaf-2B ansible_host=10.0.0.4
-Leaf-3A ansible_host=10.0.0.5
-Leaf-3B ansible_host=10.0.0.6
-
-Spine1 ansible_host=10.0.0.7
-Spine2 ansible_host=10.0.0.8
-
-NSX-T-1 ansible_host=10.0.0.9
-NSX-T-2 ansible_host=10.0.0.10
-
-Host-1 ansible_host=10.0.0.11
-Host-2 ansible_host=10.0.0.12
-Host-3 ansible_host=10.0.0.13
-Host-4 ansible_host=10.0.0.14
-
-EXT-R1-DC1 ansible_host=10.0.0.15
-EXT-R2-DC1 ansible_host=10.0.0.16
-
-Super-Spine1 ansible_host=10.0.0.17
-Super-Spine2 ansible_host=10.0.0.18
-
-Spine3 ansible_host=10.0.0.19
-Spine4 ansible_host=10.0.0.20
-
-Leaf-4A ansible_host=10.0.0.21 
-Leaf-4B ansible_host=10.0.0.22
-Leaf-5A ansible_host=10.0.0.23
-Leaf-5B ansible_host=10.0.0.24
-
-EXT-R3-DC1 ansible_host=10.0.0.25
-
-
-Host-5 ansible_host=10.0.0.26
-Host-6 ansible_host=10.0.0.27
-
-FW1 ansible_host=10.0.0.30
-FW2 ansible_host=10.0.0.31
+#leaf-1 ansible_host=10.10.10.11 ansible_network_os=dellemc.os10.os10
+leaf-1 ansible_host=10.10.10.11 
+leaf-2 ansible_host=10.10.10.12
